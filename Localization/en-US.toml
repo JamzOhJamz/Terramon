@@ -1,0 +1,22 @@
+﻿[ItemName]
+BlackApricorn = "Black Apricorn"
+BlueApricorn = "Blue Apricorn"
+GreenApricorn = "Green Apricorn"
+PinkApricorn = "Pink Apricorn"
+RedApricorn = "Red Apricorn"
+WhiteApricorn = "White Apricorn"
+YellowApricorn = "Yellow Apricorn"
+
+PokeBall = "Poké Ball"
+
+[ItemTooltip]
+# TODO: Set up a system for recylcing tooltips?
+BlackApricorn = "A special fruit seemingly related to berries.\nCan be used to craft assorted Poké balls."
+BlueApricorn = "A special fruit seemingly related to berries.\nCan be used to craft assorted Poké balls."
+GreenApricorn = "A special fruit seemingly related to berries.\nCan be used to craft assorted Poké balls."
+PinkApricorn = "A special fruit seemingly related to berries.\nCan be used to craft assorted Poké balls."
+RedApricorn = "A special fruit seemingly related to berries.\nCan be used to craft assorted Poké balls."
+WhiteApricorn = "A special fruit seemingly related to berries.\nCan be used to craft assorted Poké balls."
+YellowApricorn = "A special fruit seemingly related to berries.\nCan be used to craft assorted Poké balls."
+
+PokeBall = "A device for catching wild Pokémon.\nIt is thrown like a ball at the target.\nIt is designed as a capsule system."

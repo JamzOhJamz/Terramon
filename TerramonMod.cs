@@ -2,7 +2,7 @@ using TeaFramework;
 
 namespace Terramon
 {
-	public class Terramon : TeaMod
+	public class TerramonMod : TeaMod
 	{
 	}
 }

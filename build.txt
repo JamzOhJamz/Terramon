@@ -2,4 +2,4 @@ displayName = Terramon Mod
 author = Jamz & The Team
 version = 1.0
 homepage = https://discord.gg/U8skDEA
-dllReferences = TeaFramework
+modReferences = TeaFramework

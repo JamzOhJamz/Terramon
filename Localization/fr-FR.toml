@@ -1,0 +1,21 @@
+﻿[ItemName]
+BlackApricorn = "Noigrume Noir"
+BlueApricorn = "Noigrume Bleu"
+GreenApricorn = "Noigrume Vert"
+PinkApricorn = "Noigrume Rose"
+RedApricorn = "Noigrume Rouge"
+WhiteApricorn = "Noigrume Blanc"
+YellowApricorn = "Noigrume Jaune"
+
+PokeBall = "Poké Ball"
+
+[ItemTooltip]
+BlackApricorn = "Un fruit spécial apparemment apparenté aux baies.\nPeut être utilisé pour fabriquer des Poké Balls assorties."
+BlueApricorn = "Un fruit spécial apparemment apparenté aux baies.\nPeut être utilisé pour fabriquer des Poké Balls assorties."
+GreenApricorn = "Un fruit spécial apparemment apparenté aux baies.\nPeut être utilisé pour fabriquer des Poké Balls assorties."
+PinkApricorn = "Un fruit spécial apparemment apparenté aux baies.\nPeut être utilisé pour fabriquer des Poké Balls assorties."
+RedApricorn = "Un fruit spécial apparemment apparenté aux baies.\nPeut être utilisé pour fabriquer des Poké Balls assorties."
+WhiteApricorn = "Un fruit spécial apparemment apparenté aux baies.\nPeut être utilisé pour fabriquer des Poké Balls assorties."
+YellowApricorn = "Un fruit spécial apparemment apparenté aux baies.\nPeut être utilisé pour fabriquer des Poké Balls assorties."
+
+PokeBall = "Un dispositif pour attraper les Pokémon sauvages.\nIl est lancé comme une balle sur la cible.\nIl est conçu comme un système de capsules."

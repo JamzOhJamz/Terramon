@@ -14,7 +14,7 @@ namespace Terramon.Abstract
 
         public override string Name => ContentName ?? base.Name;
 
-        public virtual string? ContentName { get; set; }
+        public virtual string? ContentName { get; init; }
 
         protected override bool CloneNewInstances => true;
     }

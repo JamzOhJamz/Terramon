@@ -1,7 +1,11 @@
-﻿using Microsoft.Xna.Framework;
+﻿using System;
+using System.Collections.Generic;
+using Microsoft.Xna.Framework;
 using Terramon.Abstract;
 using Terramon.Content.Items;
 using Terraria;
+using Terraria.ID;
+using Terraria.ModLoader;
 
 namespace Terramon.Common.Systems.Loading
 {
@@ -21,6 +25,11 @@ namespace Terramon.Common.Systems.Loading
             new ApricornItemManifest("YellowApricorn", new Color(253, 211, 129))
         };
 
+        protected readonly Dictionary<string, Action<ModItem>> ItemRecipes = new()
+        {
+            {"PokeBall", new RecipeBuilder().WithIngredient(ItemID.IronBar, 5).WithIngredient("Terramon:RedApricorn", 3).Build()}
+        };
+
         protected readonly ContentManifestCollection<PokeBallItem, PokeBallItemManifest> PokeBallItems = new(PokeBallItemManifest.MakeContent)
         {
             new PokeBallItemManifest("PokeBall", Item.sellPrice(silver: 5), new Color(255, 87, 87))
@@ -31,6 +40,12 @@ namespace Terramon.Common.Systems.Loading
 
             ApricornItems.AddAllContent(TeaMod);
             PokeBallItems.AddAllContent(TeaMod);
+        }
+
+        public override void AddRecipes() {
+            base.AddRecipes();
+
+            foreach ((string itemName, Action<ModItem> recipeCreator) in ItemRecipes) recipeCreator(Mod.Find<ModItem>(itemName));
         }
     }
 }
